@@ -1,11 +1,11 @@
-import { GiSkills } from "react-icons/gi";
+import { AiFillCode } from "react-icons/ai";
 import Title from "./Title";
 import SkillsInput from "./SkillsInput";
 
 const Skills = () => {
   return (
     <div className="wrapper">
-      <Title text="Skills" icon={<GiSkills />} />
+      <Title text="Skills" icon={<AiFillCode />} />
       <div className="flex gap-4 flex-wrap">
         <SkillsInput
           title="Javascript"

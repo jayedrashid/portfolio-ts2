@@ -1,4 +1,4 @@
-import { FaProjectDiagram } from "react-icons/fa";
+import { GoProjectSymlink } from "react-icons/go";
 import Image from "next/image";
 import Title from "./Title";
 import ProjectCard from "./ProjectCard";
@@ -12,7 +12,7 @@ import dashboard from "../../public/img/projects/dashboard.webp";
 const Projects = () => {
   return (
     <div className="wrapper">
-      <Title text="Projects" icon={<FaProjectDiagram />} />
+      <Title text="Projects" icon={<GoProjectSymlink />} />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
         <ProjectCard
           img={amazonClone.src}
