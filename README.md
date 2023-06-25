@@ -1,7 +1,6 @@
-# My Official Portfolio Page
+# Project - Portfolio
 
-This is my Official Portfolio page.
-
+This is a Portfolio website with Next Js & Typescript.
 
 ## Screenshots
 
