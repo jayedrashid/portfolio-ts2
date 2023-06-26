@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="wrapper">
       <div className="max-w-5xl mx-auto flex flex-col gap-4 items-center justify-center">
-        <h2 className="text-2xl font-bold">Contact Me</h2>
+        <h2 className="text-2xl font-bold text-blue-300">Contact Information</h2>
         <p className="text-lg tracking-wide font-medium text-center">
           Email me with any questions or inquiries. We would be happy to answer your questions and set up a meeting with you.
         </p>

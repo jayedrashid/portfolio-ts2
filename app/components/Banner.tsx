@@ -6,8 +6,8 @@ const Banner = () => {
     <div className="wrapper flex flex-col md:flex-row items-center gap-10">
       {/* Description */}
       <div className="w-2/3 flex flex-col items-center md:items-start gap-2">
-        <h1 className="text-5xl font-bold text-white">John Doe</h1>
-        <h3 className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-red-300 to-indigo-300 tracking-wide">
+        <h1 className="text-4xl lg:text-5xl font-bold text-blue-300 whitespace-nowrap">John Snow</h1>
+        <h3 className="text-xl md:text-2xl font-semibold text-blue-600 tracking-wide">
           Software Developer
         </h3>
         <p className="text-base tracking-wide text-center md:text-left">
@@ -20,7 +20,7 @@ const Banner = () => {
       {/* Image */}
       <div className="m-auto">
         <Image
-          className="rounded-md border-[1px] border-indigo-700 p-2"
+          className="rounded-md border-[3px] p-2"
           width={200}
           height={200}
           src={ProfileImg}
